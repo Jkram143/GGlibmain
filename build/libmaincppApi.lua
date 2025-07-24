@@ -2131,7 +2131,7 @@ local Searcher = {
     end,
 
     Findlibmaincpp = function()
-        local libmaincpp = gg.getRangesList('liblibmaincpp.so')
+        local libmaincpp = gg.getRangesList('libmain.so')
         if #libmaincpp == 0 then
             libmaincpp = gg.getRangesList('split_config.')
             local _libmaincpp = {}
